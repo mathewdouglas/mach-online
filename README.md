@@ -1,2 +1,2 @@
 # mach-online
-Repo for wesite deployed at https://mach-online.de
+Repo for website deployed at https://mach-online.de
