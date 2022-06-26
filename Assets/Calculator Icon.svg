@@ -1,0 +1,34 @@
+<svg id="Calculator_Icon" data-name="Calculator Icon" xmlns="http://www.w3.org/2000/svg" width="218" height="219" viewBox="0 0 218 219">
+    <defs>
+        <style>
+        .cls-1 {
+            fill: #e8e8e8;
+        }
+
+        .cls-2 {
+            fill: #404040;
+        }
+
+        .cls-3 {
+            fill: #ddd;
+        }
+
+        .cls-4 {
+            fill: #ffa700;
+        }
+        </style>
+    </defs>
+    <ellipse id="Ellipse_6" data-name="Ellipse 6" class="cls-1" cx="109" cy="109.5" rx="109" ry="109.5"/>
+    <rect id="Rectangle_102" data-name="Rectangle 102" width="92" height="125" rx="8" transform="translate(63 47)"/>
+    <rect id="Rectangle_103" data-name="Rectangle 103" class="cls-2" width="81" height="29" rx="5" transform="translate(69 53)"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-3" cx="10" cy="10" r="10" transform="translate(99 88)"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-3" cx="10" cy="10" r="10" transform="translate(99 116)"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-3" cx="10" cy="10" r="10" transform="translate(99 144)"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-3" cx="10" cy="10" r="10" transform="translate(71 88)"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-3" cx="10" cy="10" r="10" transform="translate(71 116)"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-3" cx="10" cy="10" r="10" transform="translate(71 144)"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-4" cx="10" cy="10" r="10" transform="translate(127 88)"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-4" cx="10" cy="10" r="10" transform="translate(127 116)"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" class="cls-4" cx="10" cy="10" r="10" transform="translate(127 144)"/>
+    <rect id="Rectangle_104" data-name="Rectangle 104" class="cls-3" width="28" height="20" transform="translate(81 144)"/>
+</svg>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css?v=0.1">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <title>ODFU - Login</title>
+</head>
+
+<body>
+    <form id="form" action="verify.php" method="POST" class="login-form">
+        <!-- <img src="" alt="icon"> -->
+        <div>
+            <h1>ODFU LOGO</h1>
+            <h1>Login</h1>
+
+            <div class="txtb">
+                <input type="text" name="userid" autofocus>
+                <span data-placeholder="User ID"></span>
+            </div>
+
+            <div class="txtb">
+                <input type="password" name="passwd">
+                <span data-placeholder="Password"></span>
+            </div>
+        </div>
+
+        <input type="submit" class="logbtn" value="Login">
+
+    </form>
+
+    <script type="text/javascript">
+        // Trying to fix the graphica issue on firefox caused by autofilling password
+        // window.onload = function() {
+        //     $(".txtb input").addClass("focus");
+        //     if ($(".txtb input").val() == "") {
+        //         $(".txtb input").removeClass("focus");
+        //     }
+        // }
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const returnURL = urlParams.get('return');
+        if (urlParams == null | returnURL == null) {
+            console.log("No return url");
+        } else {
+            console.log(returnURL);
+            document.getElementById("form").action = "verify.php?return=" + returnURL;
+        }
+
+        $(".txtb input").on("focus", function () {
+            $(this).addClass("focus");
+        });
+
+        $(".txtb input").on("load", function () {
+            $(this).addClass("focus");
+        });
+
+        $(".txtb input").on("blur", function () {
+            if ($(this).val() == "")
+                $(this).removeClass("focus");
+        });
+
+    </script>
+
+
+</body>
+
+</html>
