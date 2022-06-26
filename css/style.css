@@ -100,7 +100,7 @@ light {
     margin-left: 30%; */
     margin-top: calc(40px + var(--header-h));
     padding-top: 120px;
-    background-image: url("/ODFU/Assets/search-background.jpg");
+    background-image: url("/Assets/search-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: var(--blue);
